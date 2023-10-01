@@ -1,4 +1,4 @@
-# Titulo: Página de cadastro e login com HTML e CSS.
+# Titulo: Página de cadastro e login.
 
 ## Acessar: https://victormanzano.github.io/cadastro-login/
 
