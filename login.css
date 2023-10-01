@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.leftContainer {
+    width: 50%;
+    height: 100%;
+    background-image: url(webpForum.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* MODIFIQUEI */
+
+
+.leftTextContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}
+
+
+
+.leftTextContainerTwo {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    margin-top: 4.9rem;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.leftTextContainerTwo h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.leftTextContainerTwo p {
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.966);
+}
+
+.leftTextContainerTwo span {
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+.rightContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+
+.divRegister {
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textRegister {
+    color: white;
+    font-size: 2rem;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+label {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 1rem;
+}
+
+input {
+    width: 25rem;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: rgb(255, 250, 250);
+    background-color: #121212;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+button {
+    border: none;
+    outline: none;
+    width: 11rem;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #ffffff8f;
+}
+
+p {
+    color: white;
+}
+
+
+a {
+    color: rgb(76, 66, 216);
+    margin-left: 5px;
+}
+
+.infosLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftContainer {
+        display: none;
+    }
+
+    .rightContainer {
+        width: 100%;
+    }
+
+    input {
+        width: 20rem;
+    }
+}
+
+
+
+
+
