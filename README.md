@@ -5,7 +5,7 @@
 ## Ferramentas:
 - HTML
 - CSS
-- Lib data AOS.
+- Lib data AOS
 
 ### IMAGENS:
 
